@@ -1,0 +1,759 @@
+body {
+    background-image: url(../img/woodbackground-small.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* TOP */
+
+.khinkali {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-image: url(../img/veggiesMain.png);
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 300px;
+}
+.khinkaliOne {
+    margin-top: 45px;
+}
+.khinkaliOneImg {
+    width: 150px;
+}
+.khinkaliTwo {
+margin-left: 500px;
+margin-right: 500px;
+margin-top: -5px;
+}
+.khinkaliTwoImg {
+    width: 130px;
+}
+.khinkaliThree {
+    margin-top: 40px;
+}
+.khinkaliThreeImg {
+    width: 170px;
+}
+
+/* MAINCONTAINER */
+
+.mainContainer {
+    margin-top: 150px;
+}
+.gamarjoba {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gamarjobaTxt {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.mainHeader {
+    display: flex;
+    justify-content: center;
+}
+.mainHeaderTxt {
+    font-family: 'Dancing Script', cursive;
+    font-size: 110px;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    margin: 0px;
+}
+.navBarMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navBarMenuItem {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.navBarMenuItem:hover {
+    color: red;
+}
+
+/* ABOUT US */
+
+.aboutUsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUsContacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12%;
+}
+.aboutUsContactsUnder {
+    display: flex;
+    flex-direction: column;
+}
+.aboutUsContactsTxt {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+.aboutUsIcon {
+    width: 40px;
+}
+.aboutUsDes {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+.noLink:hover {
+    color: red;
+}
+.bookTable {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.aboutUsBtn {
+    width: 180px;
+    background-color: rgb(165, 1, 1);
+    padding: 15px;
+    margin: 5px;
+}
+.aboutUsBtn:hover {
+    background-color:white;
+    padding: 15px;
+}
+.aboutUsBtnLink {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.aboutUsBtnLink:hover {    
+    color:rgb(165, 1, 1);
+}
+.chefSpeach {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.aboutUsDescription {
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+.shashlik {
+    width: 300px;
+}
+.aboutUsDescriptionHello {
+    font-family: 'Montserrat', cursive;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aboutUsDescriptionTxt {
+    font-family: 'Montserrat', cursive;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+/* .aboutUsChef {
+} */
+.aboutUsChefPic {
+    width: 300px;
+}
+
+/* MENU */
+
+.menuContainer {
+    background-image: url(../img/food11.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.menuContainerFilter {
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.underHeaderTxt {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.menuBtn {
+    width: 400px;
+    background-color: rgb(165, 1, 1);
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.menuBtn:hover {
+    background-color:white;
+    color:rgb(165, 1, 1);
+    padding: 15px;
+}
+
+/* WINE */
+
+.wineContainer {
+    background-image: url(../img/grape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    padding: 50px;
+}
+.wineContainerFilter {
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.wineHeadind {
+    padding: 20px;
+}
+.wineDescription {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.wineDescriptionColoumn {
+    width: 40%;
+    padding: 30px;
+}
+.wineDescriptionHeader {
+    font-family: 'Montserrat', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.wineDescriptionTxt {
+    font-family: 'Montserrat', cursive;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+.wineHead {
+    font-size: 30px;
+    text-shadow: 2px 2px 2px red;    
+    padding-top: 20px;
+}
+.wineBottleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 30px;
+}
+.wineBottleItem {
+    display: flex;
+    align-items: flex-end;
+    width: 40%;
+    padding: 20px;
+    margin: 20px;
+    /* background-color: rgba(255, 255, 255, 0.11); */
+}
+.wineBottleItemDescription {
+    display: flex;
+    flex-direction: column;
+
+}
+
+    /* SPECIALTIES */
+
+.specialtiesHeader {
+    font-family: 'Montserrat', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+}
+.specialtiesTxt {
+    font-family: 'Montserrat', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+.specialtiesBackground {
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.hiddenCarousel {
+    display: none;
+}
+/* EVENTS */
+
+.eventsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.eventsItem {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center; 
+    background-color: white;
+    box-shadow: 8px 8px 10px 0 rgba(231, 25, 25, 0.308);
+    height: 700px;
+    width: 300px;
+    margin: 20px;
+}
+.eventsItemHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-image: url(../img/label-med.png);
+    width: 300px;
+    height: 130px;
+    margin: -25px auto 0 auto;
+}
+.price {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.priceTxt {
+    font-family: 'Montserrat', cursive;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.eventsItemGrams {
+    font-family: 'Montserrat', cursive;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(231, 25, 25, 0.418);
+    padding: 7px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.eventsItemTxt {
+    font-family: 'Montserrat', cursive;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    padding: 7px;
+    border-bottom: 1.5px solid rgba(231, 25, 25, 0.418);
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.bevMenu {
+display: flex;
+justify-content: center;
+margin: 30px auto 30px auto;    
+}
+.menuBtn {
+    width: 300px;
+    background-color: rgb(165, 1, 1);
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.eventsMenuBtn {
+    width: 150px;
+    background-color: rgb(165, 1, 1);
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+.feedbackContainer {
+    background-image: url(../img/feedback11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin: 50px 0 0 0;
+    width: 100%;
+}
+.feedbackItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.726);
+    box-shadow: 10px 10px  rgba(231, 25, 25, 0.418);
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 50px;
+}
+.feedbackItemHeader {
+    font-family: 'Montserrat', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    margin-bottom: 5px;
+}
+.stars {
+    display: flex;
+}
+.feedbackItemTxt {
+    font-family: 'Montserrat', cursive;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+.feedbackItemPerson {
+    align-self: flex-end;
+    font-family: 'Montserrat', cursive;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    font-style: italic;
+}
+
+/* CONTACTS */
+.contactsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.map {
+    margin-right:  50px;
+}
+.mapmap {
+    width: 800px;
+    height: 450px;
+    border: none;
+}
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    margin: auto 50px auto 50px;
+}
+.socialMediaItem {
+    padding: 10px;
+    margin: 10px;
+}
+.socialMediaItem:hover {
+    background-color:rgba(231, 25, 25, 0.308);
+    border-radius: 50%;
+}
+.navBarMenuFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: auto 25px auto 25px;
+    border-left: 2px solid white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.copyright {
+    font-family: 'Montserrat', cursive;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    padding: 5px;
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.copyright:hover {
+    color: red;
+}
+
+
+
+
+/* MOBILE ADAPTATION */
+
+@media all and (max-width: 850px) {
+    .khinkali {
+        position: absolute;
+        background-size: 100%;
+        width: 100%;
+        height: 100px;
+    }
+    .khinkaliOne {
+        margin-top: 15px;
+    }
+    .khinkaliOneImg {
+        width: 60px;
+    }
+    .khinkaliTwo {
+    margin-left: 190px;
+    margin-right: 180px;
+    margin-top: -5px;
+    }
+    .khinkaliTwoImg {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .khinkaliThree {
+        margin-top: 20px;
+    }
+    .khinkaliThreeImg {
+        width: 60px;
+    }
+    .mainContainer {
+        margin-top: 70px;
+    }
+    .gamarjobaTxt {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .mainHeaderTxt {
+        font-size: 50px;
+        color: white;
+        text-shadow: 2px 2px 2px red;
+        margin: 0px;
+    }
+    .navBarMenuItem {
+        font-size: 12px;
+    }
+    .aboutUsContainer {
+        flex-direction: column;
+    }
+    .aboutUsContacts {
+        width: 100%;
+        order: 2;
+    }
+    .aboutUsContactsUnder {
+        flex-direction: row;
+    }
+    .aboutUsBtn {
+        width: 300px;
+    }
+    .chefSpeach {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        order: 1;
+        margin-bottom: 50px;
+    }
+    .aboutUsDescription {
+        text-align: center;
+        padding: 20px;
+        margin: 0px;
+        margin-bottom: 0;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+    .shashlik {
+        width: 200px;
+    }
+    .aboutUsDescriptionHello {
+        font-size: 17px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .aboutUsDescriptionTxt {
+        font-family: 'Montserrat', cursive;
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+    }
+    .aboutUsChefPic {
+        width: 200px;
+    }
+    .menuContainer {
+        height: 350px;
+    }
+    .menuContainerFilter {
+        height: 350px;
+    }
+    .wineContainer {
+        padding: 20px;
+    }
+    .wineDescriptionColoumn {
+        width: 45%;
+        padding: 10px;
+    }
+    .wineBottleItem {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+    .specialtiesHeader {
+        font-size: 30px;
+
+    }
+    .specialtiesTxt {
+        font-size: 15px;
+    }
+    .feedbackItem {
+        width: 230px;
+        height: 280px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .feedbackItemHeader {
+        font-size: 15px;
+    }
+    .feedbackItemTxt {
+        font-family: 'Montserrat', cursive;
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+    }
+    .contactsContainer {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .map {
+        margin-right:  0;
+        order: 2;
+        width: 100%;
+    }
+    .mapmap {
+        width: 100%;
+        height: 450px;
+        border: none;
+    }
+    .socialMedia {
+        flex-direction: row;
+        order: 1;
+    }    
+    .socialMediaItem {
+        padding: 20px;
+        margin: 20px;
+        margin-top: 0;
+    }
+    .navBarMenuFooter {
+        flex-direction: row;
+        padding: 10px;
+        margin: 0px;
+        border-left: none;
+        border-bottom: 1px solid white;
+        order: 3;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .khinkaliOne {
+        margin-top: 10px;
+    }
+    .khinkaliOneImg {
+        width: 35px;
+    }
+    .khinkaliTwo {
+    margin-left: 90px;
+    margin-right: 90px;
+    }
+    .khinkaliTwoImg {
+        width: 30px;
+    }
+    .khinkaliThree {
+        margin-top: 10px;
+    }
+    .khinkaliThreeImg {
+        width: 40px;
+    }
+    .gamarjobaTxt {
+        font-size: 12px;
+    }
+    .mainHeaderTxt {
+        font-size: 35px;
+        text-shadow: 1px 1px 1px red;
+    }
+    .aboutUsDescriptionTxt {
+        font-size: 12px;
+    }
+    .menu {
+        width: 300px;
+    }
+    .menuBtn {
+        width: 100%;
+    }
+    .wineDescriptionColoumn {
+        width: 100%;
+    }
+.wineHeadind {
+    font-size: 14px;
+}
+.wineDescriptionTxt {
+    font-size: 12px;
+}
+.wineHead {
+    font-size: 17px;
+    text-shadow: 1px 1px 1px red;  
+}
+.wineBottleContainer {
+    margin: 10px;
+}
+.wineBottleItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.feedbackContainer {
+    flex-direction: column;
+    background-position: center;
+}
+.socialMediaItem {
+    padding: 10px;
+    margin: 15px;
+}
+.navBarMenuFooter {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+.footerItem {
+    font-size: 10px;
+}
+.specialtiesHeader {
+    font-size: 20px;
+}
+.specialtiesTxt {
+    font-size: 12px;
+}
+.hiddenCarousel {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.bevMenu {
+    width: 200px;
+}
+}
