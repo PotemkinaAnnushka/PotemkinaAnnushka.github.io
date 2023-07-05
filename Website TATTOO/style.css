@@ -1,0 +1,380 @@
+body {
+    background-image: url(фон2.png);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+#mainContainer {
+    margin-left: 40%;
+    width: 60%;
+}
+
+.topPar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #e5f6fa;
+}
+
+.topParText {
+    color: #7f1218;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+.btnConnect {
+    margin-right: 40px;
+}
+
+.iconsConnect {
+    width: 30px;
+}
+
+.headerFlower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #7f1218;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Charmonman", cursive;
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+    margin: 0px;
+    color: #7f1218;
+}
+
+.flower {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.navBarItem {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #028eac;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navBarItem:hover {
+    color: #7f1218;
+}
+
+.aboutUs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.description {
+    flex: 2;
+    margin: 20px;
+    text-align: center;
+}
+
+.welcomeHeader {
+    font-family: "Charmonman", cursive;
+    font-size: 20px;
+}
+
+.descriptionTxt {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.masterPic {
+    flex: 1;
+    margin: 30px;
+}
+
+.masterPhoto {
+    width: 100%;
+    height: 100%;
+}
+
+.underHeaderFlower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesHeader {
+    display: flex;
+    justify-content: center;
+    font-family: "Charmonman", cursive;
+    font-size: 40px;
+    color: #7f1218;
+    text-shadow: 1px 1px 1px black;
+    padding: 15px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flS {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.servicesItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    margin: 20px;
+    border: 1px solid #7f1218;
+}
+
+.servicesUnderHeader {
+    font-family: "Charmonman", cursive;
+    font-size: 20px;
+    color: #7f1218;
+    text-shadow: 1px 1px 1px black;
+    margin: 10px;
+}
+
+.servicesTxt {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: black;
+    padding: 15px;
+    margin: 0;
+}
+
+.welcomeHeaderInst {
+    display: flex;
+    align-items: center;
+}
+
+.welcomeHeaderInstTxt {
+    font-family: "Charmonman", cursive;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.imgMenu {
+    width: 800px;
+}
+
+.map {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.mapmap {
+    width: 60%;
+    height: 450px;
+    border: none;
+}
+
+.conntactsWithMap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactsTxt {
+    font-family: "Lato", cursive;
+    font-size: 20px;
+    color: black;
+    margin-top: 0;
+}
+
+.connection {
+    display: flex;
+    justify-content: center;
+}
+
+.btnConnect {
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.redHr {
+    border: 1px solid #7f1218;
+    margin-top: 30px;
+}
+
+.containerCopyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    font-family: "Lato", sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 80px;
+    /* Place the button at the bottom of the page */
+    left: 700px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #7f1218;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 25px;
+    /* Some padding */
+    border-radius: 90%;
+    /* Rounded corners */
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+@media all and (max-width: 850px) {
+    #mainContainer {
+        width: 100%;
+        margin: 0px;
+        background-color: rgba(255, 255, 255, 0.582);
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #myBtn {
+        left: 50px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .btnConnect {
+        padding: 10px;
+        margin: 0px;
+        margin-right: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin: 10px;
+    }
+
+    .flower {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .navBarItem {
+        font-size: 14px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .aboutUs {
+        flex-direction: column-reverse;
+    }
+
+    .masterPic {
+        margin: 0;
+    }
+
+    .welcomeHeader {
+        font-size: 17px;
+    }
+
+    .servicesHeader {
+        font-size: 20px;
+        margin: 10;
+    }
+
+    .servicesItem {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .welcomeHeaderInstTxt {
+        font-size: 15px;
+    }
+
+    .imgMenu {
+        width: 100%;
+    }
+
+    .map {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .mapmap {
+        width: 100%;
+        height: 300px;
+    }
+
+    .conntactsWithMap {
+        margin: 20px;
+    }
+
+    .btnConnect {
+        margin: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+    }
+
+    #myBtn {
+        bottom: 30px;
+        left: 30px;
+        padding: 15px;
+        font-size: 15px;
+    }
+}
